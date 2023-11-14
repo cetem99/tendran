@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+.first-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:  linear-gradient(rgba(251,239,183), rgba(251,239,183, 0.8)), url(/img/vrum.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body{
+    background-color: rgb(251,239,183);
+}
+
+menu{
+    display: none;
+    border-top: 2px solid black ;
+}
+
+menu > ul > li{
+    display: block;
+    padding: 10px;
+    text-align: left;
+    border-top: 2px solid black ;
+}
+
+#burg{
+    background-color: blue;
+    display: block;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#burg:hover{
+    background-color: brown;
+    color: aqua;
+}
+
+
