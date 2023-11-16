@@ -13,45 +13,44 @@
 
 
 <body>
-    <header>
-        <section class="first-section">
+    <header class="img-header">
             <div class = "container">
                 <nav>
                     <a href="index.html">
-                        <img src="img/DETRAN_df.webp" alt="logo do Detran Distrito federal"/>
+                        <img class="logo" src="img/DETRAN_df.webp" alt="logo do Detran Distrito federal"/>
                     </a>
                         
-                    <ul class = "ul">
+                    <ul class = "list-header">
                         <a href="https://www.detran.df.gov.br/" target="_self">detran df</a>
                         <a href="#" target="_self">ver ocorrências</a>
                         <a href="#" target="_self">sobre</a>
                         <a href="https://www.detran.df.gov.br/fale-com-o-detran-df/" target="_self">contato</a>
-                        <a href="login.html" target="_self">Login</a>
+                        <a class="prin" href="login.html" target="_self">Login</a>
                     </ul>
                 </nav> 
             
-                <section class = "bannner">
+                <section class = "baner">
                     <div class="ban">
                         <h1>Fazer ocorrência</h1>
-                        <p>Deseja registrar uma ocorrência no Tendran?
+                        <p>Deseja registrar uma ocorrência no Tendran?<br>
                             clike no botao abaixo para nos 
                             informar sobre qualquer problema ou preocupação que 
-                            você tenha.
+                            você tenha.<br>
                             Estamos aqui para ajudar</p>
+<!--add view/-->        <a href="login.html" class="prin">Clike aqui para fazer o<br> login</a>
                     </div>
                 </section>
 
 
             </div>
-        </section>
     </header>
     <main>
        
         <ul>
             <li>
 
-                <p>
-                    <span id="burg" onclick="clickMenu()" class="material-symbols-outlined">arrow_forward_ios</span>
+                <p id="burg"  onclick="clickMenu()" style="display: flex;">
+                    <span  class="material-symbols-outlined">arrow_forward_ios</span>
                     Descrição do Serviço
                 </p>
                     <menu id = "txt">
@@ -77,14 +76,7 @@
             <li><p>Requisitos e documentos necessários</p></li>
         </ul>
     </main>
-     <script>
-            function clickMenu(){
-                if(txt.style.display == 'block'){
-                    txt.style.display = 'none'
-                }else{
-                    txt.style.display = 'blok'
-                }
-            }</script>
+     
     <footer>
 
     </footer>

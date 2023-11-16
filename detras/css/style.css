@@ -1,27 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;500;900 & display=swap');
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    height: 75px;
+}
+
+.img-header{
+    background-image:  linear-gradient(rgba(251,239,183, 0.8),
+     rgba(251,239,183, 1)), url(/img/vrum.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+ nav ul{
+    display: flex;
+    align-items: center;
+ }
+
+nav ul a{
+    color: #000;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+}
+
+nav a:hover{
+    border-bottom:  solid 3px  black ;
+}
+
+.prin{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.prin:hover{
+    background-color: #1e1e1e;
+}
+
+.baner{
+    display: flex;
+    justify-content: center;
+}
+
+.baner .ban{
+    margin: 150px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.ban h1{
+    font-size: 90px;
+}
+
+.ban p{
+    font-size: 25px;
 }
 
 .first-section{
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:  linear-gradient(rgba(251,239,183), rgba(251,239,183, 0.8)), url(/img/vrum.jpg);
+
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.container{    
+    margin: 0 auto;
+    padding: 0% 3%;
+}
+
 
 body{
-    background-color: rgb(251,239,183);
+    background-color: rgb(251,239,183, 1);
 }
 
 menu{
@@ -37,15 +114,15 @@ menu > ul > li{
 }
 
 #burg{
-    background-color: blue;
+    border-top: 4px solid (#dcd2a4) ;
     display: block;
     color: rgb(0, 0, 0);
     cursor: pointer;
+    align-items: center;
 }
 
 #burg:hover{
-    background-color: brown;
+    background-color: #d8c991;
     color: aqua;
 }
-
 
