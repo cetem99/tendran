@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script><link rel="stylesheet" href="css/style.css">
+    <script src="js/style.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="js/style.js"></link>
     <title>Detran</title>
@@ -24,7 +25,7 @@
                         <a href="https://www.detran.df.gov.br/" target="_self">detran df</a>
                         <a href="#" target="_self">ver ocorrências</a>
                         <a href="#" target="_self">sobre</a>
-                        <a href="https://www.detran.df.gov.br/fale-com-o-detran-df/" target="_self">contato</a>
+                        <!--<a href="https://www.detran.df.gov.br/fale-com-o-detran-df/" target="_self">contato</a>-->
                         <a class="prin" href="login.html" target="_self">Login</a>
                     </ul>
                 </nav> 
@@ -45,12 +46,17 @@
             </div>
     </header>
     <main>
-       
+       <section class="branco">
+            <div>
+                <h1>Bem-vindo ao Tendran: Sua Voz no Trânsito!</h1>
+                <p>sdadad</p>
+            </div>
+       </section>
         <ul>
             <li>
 
                 <p id="burg"  onclick="clickMenu()" style="display: flex;">
-                    <span  class="material-symbols-outlined">arrow_forward_ios</span>
+                    <span id="tamanho" class="material-symbols-outlined">arrow_forward_ios</span>
                     Descrição do Serviço
                 </p>
                     <menu id = "txt">
@@ -81,15 +87,5 @@
 
     </footer>
 
-    <script>
-        function clickMenu(){
-            if(txt.style.display == 'block'){
-                txt.style.display = 'none'
-            }else{
-                txt.style.display = 'block'
-            }
-            
-        }
-    </script>
 </body>
 </html>
